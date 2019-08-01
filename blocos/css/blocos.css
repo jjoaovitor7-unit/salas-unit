@@ -1,4 +1,7 @@
 body{
+ background: #082b4a;
+ background: linear-gradient(45deg, #082b4a, #1a62a1);
+ background-attachment: fixed;
 }
 
 .blocos-title{
