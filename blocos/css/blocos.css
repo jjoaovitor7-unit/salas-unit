@@ -7,7 +7,7 @@ body{
 .blocos-title{
  text-align: center;
  font-size: 80px;
- color: #FFFFFF;
+ color: #ffffff;
 }
 
 .div-blocos{
@@ -16,10 +16,10 @@ body{
 
 .sala{
  text-align:center;
- color:#FFFFFF;
+ color:#ffffff;
 }
 
-button-blocos{
+button-bloco{
  background: #04192b;
  border-radius: 10px;
  font-size: 25px;
