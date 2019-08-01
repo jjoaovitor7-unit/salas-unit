@@ -15,4 +15,9 @@ body{
 }
 
 .button-bloco{
+ background: #04192b;
+	border-radius: 10px;
+	font-size: 25px;
+	color: #ffffff;
+	padding: 5px 10px;
 }
