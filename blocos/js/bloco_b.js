@@ -1,5 +1,5 @@
 function sala_b1(){
-   document.getElementById('sala').innerHTML= '?';
+   document.getElementById('sala').innerHTML= 'Sala da Google';
 }
 
 function sala_b2(){
