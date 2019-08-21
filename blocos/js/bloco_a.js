@@ -71,7 +71,7 @@ function sala_a18(){
 }
 
 function sala_a19(){
-  document.getElementById('sala').innerHTML= '?';
+  document.getElementById('sala').innerHTML= 'Laboratório (T.I)';
 }
 
 function sala_a20(){
@@ -87,19 +87,19 @@ function sala_a22(){
 }
 
 function sala_a23(){
-  document.getElementById('sala').innerHTML= '?';
+  document.getElementById('sala').innerHTML= 'Laboratório (T.I)';
 }
 
 function sala_a24(){
-  document.getElementById('sala').innerHTML= '?';
+  document.getElementById('sala').innerHTML= 'Laboratório (T.I)';
 }
 
 function sala_a25(){
-  document.getElementById('sala').innerHTML= '?';
+  document.getElementById('sala').innerHTML= 'Laboratório (T.I)';
  }
 
 function sala_a26(){
-  document.getElementById('sala').innerHTML= '?';
+  document.getElementById('sala').innerHTML= 'Laboratório (T.I)';
 }
 
 function sala_a27(){
