@@ -119,7 +119,7 @@ function sala_a30(){
 }
 
 function sala_a31(){
-  document.getElementById('sala').innerHTML= '?';
+  document.getElementById('sala').innerHTML= 'Laboratório (T.I)';
 }
 
 function sala_a32(){
