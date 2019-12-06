@@ -43,7 +43,7 @@ function sala_b11(){
 }
 
 function sala_b12(){
-  document.getElementById('sala').innerHTML= '?';
+  document.getElementById('sala').innerHTML= 'Sala de Aula';
 }
 
 function sala_b13(){
