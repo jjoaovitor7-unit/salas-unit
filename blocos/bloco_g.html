@@ -1,69 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
  <head>
   <!-- meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/blocos.css">
+  <link rel="stylesheet" href="../css/index.css">
   <title>Bloco G</title>
  </head>
 
  <body>
-  <h1 class="blocos-title">Bloco G - Salas</h1>
+  <header>
+   <!-- título -->
+   <h1 class="hTitle">Bloco G - Salas</h1>
+  </header>
 
-  <!-- salas -->
-  <div class="div-blocos">
-   <a href="#" onclick="sala_g1()" class="button-bloco">G1</a>
-   <a href="#" onclick="sala_g2()" class="button-bloco">G2</a>
-   <a href="#" onclick="sala_g3()" class="button-bloco">G3</a>
-   <a href="#" onclick="sala_g4()" class="button-bloco">G4</a>
-   <a href="#" onclick="sala_g5()" class="button-bloco">G5</a>
-   <a href="#" onclick="sala_g6()" class="button-bloco">G6</a>
-   <a href="#" onclick="sala_g7()" class="button-bloco">G7</a>
-   <a href="#" onclick="sala_g8()" class="button-bloco">G8</a>
-   <a href="#" onclick="sala_g9()" class="button-bloco">G9</a>
-   <a href="#" onclick="sala_g10()" class="button-bloco">G10</a>
-   <br />
-   <br />
-   <a href="#" onclick="sala_g11()" class="button-bloco">G11</a>
-   <a href="#" onclick="sala_g12()" class="button-bloco">G12</a>
-   <a href="#" onclick="sala_g13()" class="button-bloco">G13</a>
-   <a href="#" onclick="sala_g14()" class="button-bloco">G14</a>
-   <a href="#" onclick="sala_g15()" class="button-bloco">G15</a>
-   <a href="#" onclick="sala_g16()" class="button-bloco">G16</a>
-   <a href="#" onclick="sala_g17()" class="button-bloco">G17</a>
-   <a href="#" onclick="sala_g18()" class="button-bloco">G18</a>
-   <a href="#" onclick="sala_g19()" class="button-bloco">G19</a>
-   <a href="#" onclick="sala_g20()" class="button-bloco">G20</a>
-   <br />
-   <br />
-   <a href="#" onclick="sala_g21()" class="button-bloco">G21</a>
-   <a href="#" onclick="sala_g22()" class="button-bloco">G22</a>
-   <a href="#" onclick="sala_g23()" class="button-bloco">G23</a>
-   <a href="#" onclick="sala_g24()" class="button-bloco">G24</a>
-   <a href="#" onclick="sala_g25()" class="button-bloco">G25</a>
-   <a href="#" onclick="sala_g26()" class="button-bloco">G26</a>
-   <a href="#" onclick="sala_g27()" class="button-bloco">G27</a>
-   <a href="#" onclick="sala_g28()" class="button-bloco">G28</a>
-   <a href="#" onclick="sala_g29()" class="button-bloco">G29</a>
-   <a href="#" onclick="sala_g30()" class="button-bloco">G30</a>
-   <br />
-   <br />
-   <a href="#" onclick="sala_g31()" class="button-bloco">G31</a>
-   <a href="#" onclick="sala_g32()" class="button-bloco">G32</a>
-   <a href="#" onclick="sala_g33()" class="button-bloco">G33</a>
-   <a href="#" onclick="sala_g34()" class="button-bloco">G34</a>
-   <a href="#" onclick="sala_g35()" class="button-bloco">G35</a>
-   <a href="#" onclick="sala_g36()" class="button-bloco">G36</a>
-   <a href="#" onclick="sala_g37()" class="button-bloco">G37</a>
-   <a href="#" onclick="sala_g38()" class="button-bloco">G38</a>
-   <a href="#" onclick="sala_g39()" class="button-bloco">G39</a>
-   <a href="#" onclick="sala_g40()" class="button-bloco">G40</a>
-  </div>
-  <h1 id="sala"> </h1>
-  
-  <script type="text/javascript" src="js/bloco_g.js">
-  </script>
+  <main>
+   <a href="#blocoG" onclick="gerarBlocoG()" class="bGerar">Gerar</a>
+
+   <!-- salas -->
+   <div id="dBlocos"></div>
+   <script type="text/javascript" src="js/bloco_g.js"></script>
+  </main>
  </body>
 </html>
